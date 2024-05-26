@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ced4da; /* Bordure autour du conteneur */
+    border-radius: 5px; /* Bord arrondi du conteneur */
+    padding: 20px; /* Espace intérieur du conteneur */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+
+.btn-orange {
+    background-color: orange !important;
+    color: white !important;
+}
+.bg-supprimer {
+    background-color: #343a40 !important; /* Fond gris foncé */
+    color: orange !important; /* Texte en orange */
+}

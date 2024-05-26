@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.navbar {
+    background-color: #6C757D; /* Couleur de fond de la barre de navigation */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF; /* Couleur du texte de la marque */
+}
+
+.navbar-text {
+    color: #FFFFFF; /* Couleur du texte dans la barre de navigation */
+}
+
+/* Tableau des composantes de la fiche de paie */
+.table thead th {
+    background-color:orange; /* Couleur de fond de l'en-tête du tableau */
+    color: #FFFFFF; /* Couleur du texte de l'en-tête du tableau */
+}
+
+/* Boutons */
+.btn-orange {
+    background-color: #ff6a00 !important; /* Couleur de fond du bouton primaire */
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color:  #343a40 !important;
+    color: white !important;
+}
+
+.btn-secondary {
+    background-color: #6C757D; /* Couleur de fond du bouton secondaire */
+    border-color: #6C757D; /* Couleur de la bordure du bouton secondaire */
+    color: #FFFFFF; /* Couleur du texte du bouton secondaire */
+}
+
+.btn-secondary:hover {
+    background-color:  #343a40 !important;
+    color: white !important;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343A40; /* Couleur de fond du pied de page */
+    color: #FFFFFF; /* Couleur du texte du pied de page */
+    padding: 20px 0;
+    
+}
+.col{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+

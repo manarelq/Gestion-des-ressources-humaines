@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.container {
+
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px; /* Espace intérieur du conteneur */
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-orange {
+    background-color:orange !important; /* Couleur du bouton principal */
+    
+}
+
+.btn-orange:hover {
+    background-color: #343a40 !important; /* Couleur de survol du bouton principal */
+    color:white !important; /* Couleur de bordure de survol du bouton principal */
+}
+
+.btn-orange:focus,
+.btn-orange.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Ombre de mise au point du bouton principal */
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.btn-orange a{
+    text-decoration: none;
+    color: white;
+}
+.btn-orange a:hover{
+    color: white !important;
+}
+

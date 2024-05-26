@@ -1,0 +1,69 @@
+/* style.css */
+
+body {
+    background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px; /* Espace intérieur du conteneur */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-section,
+.info-section,
+.education-section,
+.experience-section,
+.skills-section,
+.languages-section,
+.interests-section {
+    margin-bottom: 30px;
+    border: 1px solid #ccc; /* Ajout d'une bordure */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 20px; /* Espace intérieur */
+}
+.profile-section h2,
+.info-section h2,
+.education-section h2,
+.experience-section h2,
+.skills-section h2,
+.languages-section h2,
+.interests-section h2{
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.profile-section P,
+.info-section p,
+.education-section ul,
+.experience-section ul,
+.skills-section ul,
+.languages-section ul,
+.interests-section ul {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px; /* Ajout d'un espace au-dessus du bouton */
+}
+
+.btn-orange {
+    background-color:orange !important;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-orange:hover {
+    background-color: #343a40 !important;
+    color: #fff !important;
+}

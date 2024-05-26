@@ -1,0 +1,54 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;    
+}
+
+
+.profile {
+    background-color: #f8f9fa;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #343a40;
+    color: orange;
+
+}
+
+.profile-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-body {
+    padding: 20px;
+}
+.profile-dody {
+    padding: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-orange {
+    background-color: orange !important;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color:  #343a40 !important;
+    color: white !important;
+}

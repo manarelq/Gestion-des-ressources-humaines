@@ -1,0 +1,149 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:white; /* Couleur de fond */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px; /* Espace intérieur du conteneur */
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40; /* Couleur de fond de l'en-tête */
+    color: orange; /* Couleur du texte de l'en-tête */
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-footer {
+    background-color: #f8f9fa; /* Couleur de fond du pied de carte */
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+}
+
+/* List Group Styles */
+.list-group-item {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0; /* Couleur de fond au survol */
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #343a40; /* Couleur de fond de l'en-tête du modal */
+    color:orange; /* Couleur du texte de l'en-tête du modal */
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    background-color: #f8f9fa; /* Couleur de fond du pied de modal */
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+}
+
+/* Button Styles */
+.btn-orange {
+    background-color:orange; /* Couleur de fond du bouton primaire */
+    border: none;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #343a40; /* Couleur de fond du bouton primaire au survol */
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Couleur de fond du bouton danger */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130; /* Couleur de fond du bouton danger au survol */
+}
+
+.float-end {
+    float: right;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+footer {
+    background-color: #343A40; /* Couleur de fond du pied de page */
+    color: #FFFFFF; /* Couleur du texte du pied de page */
+    padding: 20px 0;
+}
+header{
+    background-color: black !important;
+}
+.col{
+    color: orange;
+}
+.navbar {
+    background-color: #6C757D; /* Couleur de fond de la barre de navigation */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF; /* Couleur du texte de la marque */
+}
+
+.navbar-text {
+    color: #FFFFFF; /* Couleur du texte dans la barre de navigation */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 20px 0;
+}

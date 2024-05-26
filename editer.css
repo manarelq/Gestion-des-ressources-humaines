@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond */
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    margin-bottom: 20px;
+}
+
+/* Form label */
+.form-label {
+    font-weight: bold;
+}
+
+/* Form input */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Form button */
+.btn-orange {
+    background-color:orange !important;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+

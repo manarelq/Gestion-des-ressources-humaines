@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Styles pour le corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond */
+}
+.container{
+    padding: 60px;
+}
+
+/* Styles pour le header */
+.navbar {
+    background-color: #343a40; /* Couleur de fond du header */
+    padding: 10px 0; /* Espacement interne du header */
+}
+
+.navbar h1 {
+    margin-bottom: 0; /* Supprime la marge en bas du titre */
+}
+
+
+
+/* Styles pour le formulaire de recherche */
+.form-group {
+    margin-bottom: 20px; /* Espacement entre les éléments du formulaire */
+}
+
+.input-group {
+    width: 100%; /* Largeur maximale du groupe d'entrée */
+}
+
+/* Styles pour le footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 20px ;
+}
+

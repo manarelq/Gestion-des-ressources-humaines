@@ -1,0 +1,145 @@
+/* Couleurs personnalisées */
+:root {
+    --orange:  #ff6a00;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: var(--orange);
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color:  #ff6a00;
+    color: #000;
+}
+
+.btn-orange {
+    color: #fff;
+    border: none;
+}
+
+.btn-orange:hover {
+    background:#ff6a00;
+    color: white;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: var(--orange);
+    color:black;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.list-group-item {
+    border: none;
+    background-color: transparent;
+    color: #000;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+/* Ajout de styles pour le texte supplémentaire */
+.additional-text {
+    font-size: 50px; /* Taille de police plus petite */
+    margin-left: 10px; /* Marge à gauche pour l'espace */
+    color: #aaa; /* Couleur de texte plus claire */
+}
+
+
+/* styles.css */
+
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.additional-text {
+    color: #FFA500; /* Couleur orange */
+    margin-right: 400px; /* Espacement entre le texte supplémentaire et les éléments de la droite */
+    font-size: 30px;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* Couleur blanche pour les liens */
+    margin-right: 10px; /* Espacement entre les éléments de la liste */
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0; /* Supprime l'espacement du dernier élément */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Ajouter de l'espace entre les sections et les listes */
+.card-body {
+    margin-bottom: 20px; /* Ajouter de l'espace en bas de chaque section */
+}
+
+.card-footer {
+    margin-top: 20px; /* Ajouter de l'espace en haut de chaque liste */
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+
+
+.card-footer h5 {
+    margin-bottom: 10px;
+}
+
+.card-footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-footer ul li {
+    margin-bottom: 5px;
+}
+
+.card-footer ul li::before {
+    content: "\2022"; /* Utilisez un point comme marqueur */
+    color: #ff6a00; /* Couleur orange */
+    font-size: 12px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; /* Alignement à gauche */
+}
+.col-auto{
+    padding: 40px;
+}
+
+

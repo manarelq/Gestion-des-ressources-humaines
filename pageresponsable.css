@@ -1,0 +1,137 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px; /* Espace intérieur du conteneur */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.action-card {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+    padding:30px;
+}
+
+.action-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.card-actions {
+    padding: 0 20px 20px;
+    text-align: center;
+    
+}
+
+/* Ajoutez ces styles pour les boutons personnalisés */
+.btn-orange {
+    background-color: orange !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+}
+
+.btn-orange:hover {
+    background-color:  #343a40 !important;
+    color: white !important;
+}
+
+
+
+
+ /* Ajoutez ces styles pour le titre du site */
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+    animation: fadeInDown 1s ease;
+}
+
+/* Ajoutez ces styles pour l'icône */
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fa-user {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+
+.action-card img{
+    width: 40px;
+
+}
+.additional-text {
+    color: #FFA500; /* Couleur orange */
+    margin-right: 400px; /* Espacement entre le texte supplémentaire et les éléments de la droite */
+    font-size: 30px;
+}
+.navbar {
+    background-color: var(--orange);
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color:  #ff6a00;
+    color: #000;
+}
+footer {
+
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.col-auto{
+    padding: 40px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+
+

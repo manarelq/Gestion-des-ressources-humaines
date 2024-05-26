@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Styles pour le formulaire d'ajout d'employé */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+/* Styles pour la liste des employés */
+
+
+/* Boutons */
+.btn-orange {
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: #ff7e29;
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 40px; /* Ajoutez une marge à droite pour déplacer "Déconnexion" vers la gauche */
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange !important;
+}
+
+
+
+
+.nav-link {
+    color: #fff;
+}
+
+/* Pied de page */
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.col-auto{
+    padding: 40px;
+}
+/* Ajouter des bordures aux formulaires */
+form{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Styles pour les colonnes */
+.col-md-6 {
+    margin-bottom: 20px; /* Ajout d'un espacement en bas */
+}
+
+/* Styles pour aligner la liste des employés à droite */
+.list-group {
+    text-align: right;
+}
+.container{
+    padding: 20px;
+}
+.list-group-item a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Styles pour le titre */
+
+.container {
+    margin-top: 50px;
+}
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles pour la table */
+.table {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #343a40 !important;
+    color: orange !important;;
+}
+td, th {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+
+/* Styles pour les boutons d'action */
+.btn {
+    margin-right: 5px;
+}
+
+/* Styles pour les boutons d'action Voir, Éditer, Supprimer */
+.btn-info, .btn-primary, .btn-danger {
+    transition: background-color 0.3s ease;
+}
+
+/* Animation au survol des boutons */
+.btn-info:hover, .btn-primary:hover, .btn-danger:hover {
+    background-color: #343a40; /* Couleur de fond au survol */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.btn-primary a{
+    text-decoration: none;
+    color: white;
+}
+
